@@ -1,22 +1,57 @@
+# 💻 C Programming Journey
 
-# My C Programming Journey 🚀
+Welcome to my C programming journey! 🚀
 
-Hey! I'm a first-year Electronics and Computer Science engineering student.
+I'm a first-year Electronics and Computer Science engineering student learning programming from scratch. This repository documents my progress as I learn C, practise coding, and build a strong foundation in computer science.
 
-I'm starting my journey in C programming from the basics and documenting my progress as I learn.
+## 📚 What I'm Learning
 
-## What I'm learning
-- Basic syntax and structure of C
 - Variables and data types
-- Input and output
-- Operators
-- Conditional statements
-- Loops
-- Functions
-- Arrays and pointers
+- Input and output using `printf()` and `scanf()`
+- Arithmetic operators
+- Character and Boolean concepts
+- Basic C program structure
 
-## My goal 🎯
-To build a strong foundation in C and eventually become an embedded systems engineer.
+I'll add more topics as I progress through my learning journey.
 
-## Progress
-- Day 1: Started learning C programming.
+## 📂 Repository Structure
+
+```text
+c-programming-journey/
+├── 01-basics/
+│   ├── main.c
+│   ├── Formate.c
+│   ├── User input.c
+│   ├── Arithmetic operators.c
+│   ├── Variable(char and bool).c
+│   ├── Variables(float).c
+│   └── Variables(int).c
+├── .gitignore
+└── README.md
+```
+
+## 🎯 My Goals
+
+- Build strong programming fundamentals
+- Improve my problem-solving skills
+- Learn C programming step by step
+- Explore embedded systems and low-level programming
+- Build projects and document my progress on GitHub
+
+## 📈 Progress
+
+- [x] Wrote my first C program
+- [x] Practised variables and data types
+- [x] Learned basic input and output
+- [x] Practised arithmetic operators
+- [x] Organized my code into folders
+- [x] Uploaded my work to GitHub
+- [ ] Learn conditional statements
+- [ ] Learn loops and functions
+- [ ] Build my first mini-project
+
+## 🌱 Learning in Public
+
+I'm still a beginner, and this repository will grow as I learn. Every program is a step towards becoming a better programmer.
+
+Thanks for checking out my journey! ⭐
