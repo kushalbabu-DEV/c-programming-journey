@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
 
@@ -10,9 +11,11 @@ int main(){
 
     printf("Name of the customer: ");
     fgets(name, sizeof(name),stdin);
+    name[strlen(name) - 1] = '\0';
 
     printf("What items do you want: ");
     fgets(item, sizeof(item),stdin);
+    item[strlen(item) - 1] = '\0';
     
     printf("What is the price of the item: ");
     scanf("%f", &price);
