@@ -17,7 +17,7 @@ My goal is to strengthen my programming skills, develop logical thinking, and bu
 - Basic structure of a C program
 - `main()` function and `return 0`
 - Variables and data types
-- Integer (`int`), floating-point (`float`), double (`double`), and character (`char`) data types
+- Integer (`int`), floating-point (`float`), double (`double`), character (`char`), and Boolean (`bool`) data types
 - Constants and variable initialization
 - Arithmetic operators
 - Basic output using `printf()`
@@ -51,7 +51,35 @@ My goal is to strengthen my programming skills, develop logical thinking, and bu
 - Applying mathematical formulas in C
 - Calculating compound interest
 
-### 05. Git and GitHub
+### 05. Conditional Statements and Logical Operators
+
+- Using `if` statements
+- Understanding `if`, `else if`, and `else`
+- Making decisions based on conditions
+- Using `switch` statements
+- Understanding `break`
+- Logical AND (`&&`)
+- Logical OR (`||`)
+- Logical NOT (`!`)
+- Combining multiple conditions
+
+### 06. Loops
+
+- Understanding `while` loops
+- Repeating instructions using loops
+- Controlling loops using conditions
+- Using loops for input validation
+
+### 07. Functions
+
+- Creating and calling functions
+- Understanding function declarations and definitions
+- Function prototypes
+- Parameters and arguments
+- Passing information to functions
+- Understanding `void` functions
+
+### 08. Git and GitHub
 
 - Creating and organizing repositories
 - Using VS Code with Git
@@ -83,6 +111,9 @@ Here are some beginner-level C programs I've built while learning and practising
 | Mad Libs Game | Creates funny stories using user-provided words. | Character arrays, `fgets()`, strings and `printf()` |
 | Circle Calculator Program | Performs mathematical calculations related to a circle. | Variables, arithmetic and mathematical operations |
 | Compound Interest Calculator | Calculates the final investment amount using compound interest. | `double`, `math.h`, `pow()` and mathematical formulas |
+| Calculator | Performs basic arithmetic calculations. | Variables, input/output, operators and `switch` statements |
+| Temperature Converter | Converts temperatures between Celsius and Fahrenheit. | Variables, arithmetic and conditional statements |
+| Weight Converter | Converts between different weight units. | Variables, arithmetic and conditional statements |
 
 ---
 
@@ -92,27 +123,37 @@ Here are some beginner-level C programs I've built while learning and practising
 c-programming-journey/
 │
 ├── 01-basics/
-│   ├── main.c
-│   ├── Formate.c
-│   ├── User input.c
 │   ├── Arithmetic operators.c
+│   ├── Formate.c
+│   ├── Function Prototype.c
+│   ├── Functions.c
+│   ├── If Statements.c
+│   ├── Logical Operator.c
+│   ├── main.c
+│   ├── Maths Function.c
+│   ├── Switches.c
+│   ├── User input.c
 │   ├── Variable(char and bool).c
 │   ├── Variables(float).c
 │   ├── Variables(int).c
-│   └── Maths Function.c
+│   └── While Loop.c
 │
 ├── 02-problem-solving/
 │   └── 01-hackerrank/
-│       └── 01-introduction/
-│           ├── 01-hello-world.c
-│           └── 02-playing-with-characters.c
+│       ├── 01-introduction/
+│       │   └── 01-hello-world.c
+│       └── 02-playing-with-characters.c
 │
 ├── 03-Projects/
+│   ├── Calculator.c
 │   ├── Circle Calculator Program.c
 │   ├── Compound Interest Calculator.c
 │   ├── Mad Libs Game.c
-│   └── Shopping Cart Program.c
+│   ├── Shopping Cart Program.c
+│   ├── Temperature.c
+│   └── Weight Converter.c
 │
+├── .vscode/
 ├── .gitignore
 └── README.md
 ```
@@ -124,7 +165,7 @@ c-programming-journey/
 - Strengthen my C programming fundamentals.
 - Improve logical thinking and problem-solving.
 - Practise more HackerRank coding challenges.
-- Learn conditional statements and loops.
+- Learn loops in greater depth.
 - Understand functions and arrays in greater depth.
 - Explore pointers and memory management.
 - Learn data structures and algorithms.
