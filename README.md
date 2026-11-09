@@ -17,7 +17,8 @@ My goal is to strengthen my programming skills, develop logical thinking, and bu
 - Basic structure of a C program
 - `main()` function and `return 0`
 - Variables and data types
-- Integer (`int`), floating-point (`float`), double (`double`), character (`char`), and Boolean (`bool`) data types
+- Integer (`int`), floating-point (`float`), double (`double`), and character (`char`) data types
+- Boolean values using `bool`
 - Constants and variable initialization
 - Arithmetic operators
 - Basic output using `printf()`
@@ -63,11 +64,13 @@ My goal is to strengthen my programming skills, develop logical thinking, and bu
 - Logical NOT (`!`)
 - Combining multiple conditions
 
-### 06. Loops
+### 06. Loops and Iteration
 
 - Understanding `while` loops
+- Working with nested loops
 - Repeating instructions using loops
 - Controlling loops using conditions
+- Using `break` and `continue`
 - Using loops for input validation
 
 ### 07. Functions
@@ -78,6 +81,7 @@ My goal is to strengthen my programming skills, develop logical thinking, and bu
 - Parameters and arguments
 - Passing information to functions
 - Understanding `void` functions
+- Returning values from functions
 
 ### 08. Git and GitHub
 
@@ -90,14 +94,23 @@ My goal is to strengthen my programming skills, develop logical thinking, and bu
 
 ---
 
-## 🧩 HackerRank Practice
+## 🧩 Problem-Solving Practice
 
-I'm using HackerRank to improve my problem-solving skills and apply the concepts I'm learning.
+I'm practising programming problems to strengthen my logical thinking and apply the concepts I'm learning.
+
+| Problem | Concepts Practised |
+|---|---|
+| Sum and Difference of Two Numbers | Variables, arithmetic and functions |
+| Functions in C | Functions, parameters and return values |
+| Max of Four | Conditional statements, comparisons and functions |
+
+### HackerRank Practice
 
 | No. | Problem | Difficulty | Status |
 |---|---|---|---|
 | 01 | Hello World! | Easy | ✅ Completed |
 | 02 | Playing With Characters | Easy | ✅ Completed |
+| 03 | Max of Four | Easy | ✅ Completed |
 
 ---
 
@@ -124,6 +137,7 @@ c-programming-journey/
 │
 ├── 01-basics/
 │   ├── Arithmetic operators.c
+│   ├── Break&Continue.c
 │   ├── Formate.c
 │   ├── Function Prototype.c
 │   ├── Functions.c
@@ -131,6 +145,7 @@ c-programming-journey/
 │   ├── Logical Operator.c
 │   ├── main.c
 │   ├── Maths Function.c
+│   ├── nested loop.c
 │   ├── Switches.c
 │   ├── User input.c
 │   ├── Variable(char and bool).c
@@ -139,10 +154,10 @@ c-programming-journey/
 │   └── While Loop.c
 │
 ├── 02-problem-solving/
-│   └── 01-hackerrank/
-│       ├── 01-introduction/
-│       │   └── 01-hello-world.c
-│       └── 02-playing-with-characters.c
+│   ├── 01-hackerrank/
+│   │   └── ...
+│   ├── 03-Sum and Difference of Two Numbers.c
+│   └── 04-Functions in C.c
 │
 ├── 03-Projects/
 │   ├── Calculator.c
@@ -165,9 +180,9 @@ c-programming-journey/
 - Strengthen my C programming fundamentals.
 - Improve logical thinking and problem-solving.
 - Practise more HackerRank coding challenges.
-- Learn loops in greater depth.
-- Understand functions and arrays in greater depth.
-- Explore pointers and memory management.
+- Learn loops and functions in greater depth.
+- Understand arrays and pointers.
+- Explore memory management.
 - Learn data structures and algorithms.
 - Explore embedded systems and low-level programming.
 - Build more practical projects.
