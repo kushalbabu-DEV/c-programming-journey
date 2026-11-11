@@ -137,17 +137,18 @@ I'm practising programming problems to strengthen my logical thinking and apply 
 
 Here are some beginner-level C programs I've built while learning and practising programming concepts.
 
-| **Project**                  | **Description**                                                  | **Concepts Practised**                                      |
-| ---------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------- |
-| Shopping Cart Program        | Takes customer and item details and calculates the total price. | Variables, input/output, strings and arithmetic             |
-| Mad Libs Game                | Creates funny stories using user-provided words.                | Character arrays, `fgets()`, strings and `printf()`         |
-| Circle Calculator Program    | Performs mathematical calculations related to a circle.        | Variables, arithmetic and mathematical operations           |
-| Compound Interest Calculator | Calculates the final investment amount using compound interest.| `double`, `math.h`, `pow()` and mathematical formulas       |
-| Calculator                   | Performs basic arithmetic calculations.                          | Variables, input/output, operators and `switch` statements  |
-| Temperature Converter        | Converts temperatures between Celsius and Fahrenheit.           | Variables, arithmetic and conditional statements            |
-| Weight Converter             | Converts between different weight units.                        | Variables, arithmetic and conditional statements            |
-| Number Guessing Game         | A game where the player tries to guess a randomly generated number. | Random numbers, loops, conditions and input validation |
-| Rock Paper Scissors          | A command-line game where the player competes against the computer. | Functions, random numbers, `switch` and logical operators |
+| **Project**                  | **Description**                                                    | **Concepts Practised**                                      |
+| ---------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
+| Shopping Cart Program        | Takes customer and item details and calculates the total price.   | Variables, input/output, strings and arithmetic             |
+| Mad Libs Game                | Creates funny stories using user-provided words.                   | Character arrays, `fgets()`, strings and `printf()`         |
+| Circle Calculator Program    | Performs mathematical calculations related to a circle.           | Variables, arithmetic and mathematical operations           |
+| Compound Interest Calculator | Calculates the final investment amount using compound interest.  | `double`, `math.h`, `pow()` and mathematical formulas       |
+| Calculator                   | Performs basic arithmetic calculations.                            | Variables, input/output, operators and `switch` statements  |
+| Temperature Converter        | Converts temperatures between Celsius and Fahrenheit.             | Variables, arithmetic and conditional statements            |
+| Weight Converter             | Converts between different weight units.                           | Variables, arithmetic and conditional statements            |
+| Number Guessing Game         | A game where the player tries to guess a randomly generated number.| Random numbers, loops, conditions and input validation      |
+| Rock Paper Scissors          | A command-line game where the player competes against the computer.| Functions, random numbers, `switch` and logical operators   |
+| Banking Program              | Simulates basic banking operations such as checking balance, depositing and withdrawing money. | Functions, return values, loops, `switch` and conditional statements |
 
 ---
 
@@ -190,7 +191,8 @@ c-programming-journey/
 │   ├── Rock Paper Scissors.c
 │   ├── Shopping Cart Program.c
 │   ├── Temperature.c
-│   └── Weight Converter.c
+│   ├── Weight Converter.c
+│   └── Banking Program.c
 │
 ├── .vscode/
 ├── .gitignore
