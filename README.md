@@ -68,6 +68,7 @@ My goal is to strengthen my programming skills, develop logical thinking, and bu
 
 - Understanding `while` loops
 - Working with nested loops
+- Understanding `do-while` loops
 - Repeating instructions using loops
 - Controlling loops using conditions
 - Using `break` and `continue`
@@ -83,7 +84,24 @@ My goal is to strengthen my programming skills, develop logical thinking, and bu
 - Understanding `void` functions
 - Returning values from functions
 
-### 08. Git and GitHub
+### 08. Pointers
+
+- Introduction to pointers
+- Understanding memory addresses
+- Address-of operator (`&`)
+- Dereference operator (`*`)
+- Passing pointers to functions
+- Modifying variables using pointers
+
+### 09. Random Number Generation
+
+- Using the `<stdlib.h>` library
+- Generating random numbers using `rand()`
+- Seeding random numbers using `srand()`
+- Using `time(NULL)` with random number generation
+- Generating random numbers within a specific range
+
+### 10. Git and GitHub
 
 - Creating and organizing repositories
 - Using VS Code with Git
@@ -98,19 +116,20 @@ My goal is to strengthen my programming skills, develop logical thinking, and bu
 
 I'm practising programming problems to strengthen my logical thinking and apply the concepts I'm learning.
 
-| Problem | Concepts Practised |
-|---|---|
-| Sum and Difference of Two Numbers | Variables, arithmetic and functions |
-| Functions in C | Functions, parameters and return values |
-| Max of Four | Conditional statements, comparisons and functions |
+| **Problem**                       | **Concepts Practised**                            |
+| --------------------------------- | ------------------------------------------------- |
+| Sum and Difference of Two Numbers | Variables, arithmetic and functions               |
+| Functions in C                    | Functions, parameters and return values           |
+| Max of Four                       | Conditional statements, comparisons and functions |
+| Pointers in C                     | Pointers, addresses and dereferencing              |
 
 ### HackerRank Practice
 
-| No. | Problem | Difficulty | Status |
-|---|---|---|---|
-| 01 | Hello World! | Easy | ✅ Completed |
-| 02 | Playing With Characters | Easy | ✅ Completed |
-| 03 | Max of Four | Easy | ✅ Completed |
+| **No.** | **Problem**             | **Difficulty** | **Status**  |
+| ------- | ----------------------- | -------------- | ----------- |
+| 01      | Hello World!            | Easy           | ✅ Completed |
+| 02      | Playing With Characters | Easy           | ✅ Completed |
+| 03      | Max of Four             | Easy           | ✅ Completed |
 
 ---
 
@@ -118,15 +137,17 @@ I'm practising programming problems to strengthen my logical thinking and apply 
 
 Here are some beginner-level C programs I've built while learning and practising programming concepts.
 
-| Project | Description | Concepts Practised |
-|---|---|---|
-| Shopping Cart Program | Takes customer and item details and calculates the total price. | Variables, input/output, strings and arithmetic |
-| Mad Libs Game | Creates funny stories using user-provided words. | Character arrays, `fgets()`, strings and `printf()` |
-| Circle Calculator Program | Performs mathematical calculations related to a circle. | Variables, arithmetic and mathematical operations |
-| Compound Interest Calculator | Calculates the final investment amount using compound interest. | `double`, `math.h`, `pow()` and mathematical formulas |
-| Calculator | Performs basic arithmetic calculations. | Variables, input/output, operators and `switch` statements |
-| Temperature Converter | Converts temperatures between Celsius and Fahrenheit. | Variables, arithmetic and conditional statements |
-| Weight Converter | Converts between different weight units. | Variables, arithmetic and conditional statements |
+| **Project**                  | **Description**                                                  | **Concepts Practised**                                      |
+| ---------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------- |
+| Shopping Cart Program        | Takes customer and item details and calculates the total price. | Variables, input/output, strings and arithmetic             |
+| Mad Libs Game                | Creates funny stories using user-provided words.                | Character arrays, `fgets()`, strings and `printf()`         |
+| Circle Calculator Program    | Performs mathematical calculations related to a circle.        | Variables, arithmetic and mathematical operations           |
+| Compound Interest Calculator | Calculates the final investment amount using compound interest.| `double`, `math.h`, `pow()` and mathematical formulas       |
+| Calculator                   | Performs basic arithmetic calculations.                          | Variables, input/output, operators and `switch` statements  |
+| Temperature Converter        | Converts temperatures between Celsius and Fahrenheit.           | Variables, arithmetic and conditional statements            |
+| Weight Converter             | Converts between different weight units.                        | Variables, arithmetic and conditional statements            |
+| Number Guessing Game         | A game where the player tries to guess a randomly generated number. | Random numbers, loops, conditions and input validation |
+| Rock Paper Scissors          | A command-line game where the player competes against the computer. | Functions, random numbers, `switch` and logical operators |
 
 ---
 
@@ -157,13 +178,16 @@ c-programming-journey/
 │   ├── 01-hackerrank/
 │   │   └── ...
 │   ├── 03-Sum and Difference of Two Numbers.c
-│   └── 04-Functions in C.c
+│   ├── 04-Functions in C.c
+│   └── 05-Pointers in C.c
 │
 ├── 03-Projects/
 │   ├── Calculator.c
 │   ├── Circle Calculator Program.c
 │   ├── Compound Interest Calculator.c
 │   ├── Mad Libs Game.c
+│   ├── Number Guessing Game.c
+│   ├── Rock Paper Scissors.c
 │   ├── Shopping Cart Program.c
 │   ├── Temperature.c
 │   └── Weight Converter.c
@@ -180,12 +204,12 @@ c-programming-journey/
 - Strengthen my C programming fundamentals.
 - Improve logical thinking and problem-solving.
 - Practise more HackerRank coding challenges.
-- Learn loops and functions in greater depth.
+- Learn functions in greater depth.
 - Understand arrays and pointers.
 - Explore memory management.
 - Learn data structures and algorithms.
 - Explore embedded systems and low-level programming.
-- Build more practical projects.
+- Build more practical projects independently.
 
 ---
 
