@@ -76,7 +76,7 @@ gcc 01-fundamentals/01-first-program/first-program.c -o first-program
 On Windows PowerShell:
 
 ~~~powershell
-./first-program.exe
+.\first-program.exe
 ~~~
 
 On macOS or Linux:
