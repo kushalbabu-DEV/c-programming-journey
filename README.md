@@ -1,228 +1,110 @@
-# 💻 C Programming Journey
+# C Programming Journey
 
-Welcome to my C Programming Journey! 🚀
+A growing collection of C programs, coding exercises, and small command-line projects. This repository follows my progress as a first-year Electronics and Computer Science Engineering student learning C by writing and improving programs.
 
-I'm a first-year Electronics and Computer Science Engineering student learning C programming from scratch.
+## Start here
 
-This repository documents my progress as I explore programming fundamentals, solve coding challenges, practise problem-solving, and build practical projects.
+If you are new to the repository, follow the folders in this order:
 
-My goal is to strengthen my programming skills, develop logical thinking, and build a strong foundation in computer science.
+1. **Fundamentals** — start with the first program, then explore variables, input/output, operators, conditions, loops, functions, and arrays.
+2. **Problem solving** — see how those concepts are used in short practice exercises and HackerRank problems.
+3. **Projects** — browse small programs that combine multiple concepts.
 
----
+Most files are standalone C programs. Compile and run one source file at a time rather than compiling every file in the repository together.
 
-## 📚 What I've Learned So Far
+## Repository map
 
-### 01. C Programming Fundamentals
+| Folder | What you will find |
+| --- | --- |
+| [01-fundamentals](01-fundamentals/) | Beginner topics arranged in a learning sequence. |
+| [02-problem-solving](02-problem-solving/) | HackerRank exercises and standalone coding practice. |
+| [03-projects](03-projects/) | Small command-line programs and games. |
 
-- Basic structure of a C program
-- `main()` function and `return 0`
-- Variables and data types
-- Integer (`int`), floating-point (`float`), double (`double`), and character (`char`) data types
-- Boolean values using `bool`
-- Constants and variable initialization
-- Arithmetic operators
-- Basic output using `printf()`
+## Topic index
 
-### 02. Input and Output
+### 01 — Fundamentals
 
-- Taking user input using `scanf()`
-- Printing formatted output using `printf()`
-- Format specifiers (`%d`, `%f`, `%lf`, `%c`, `%s`)
-- Taking character input
-- Reading strings and sentences
-- Using `fgets()` for input containing spaces
-- Understanding `stdin`
+| Topic | Examples in this repository |
+| --- | --- |
+| [First program](01-fundamentals/01-first-program/) | A first C program using main() and printf(). |
+| [Variables and data types](01-fundamentals/02-variables-and-data-types/) | Integer, floating-point, character, and boolean variables. |
+| [Input and output](01-fundamentals/03-input-and-output/) | User input and formatted output / format specifiers. |
+| [Operators and maths](01-fundamentals/04-operators-and-math/) | Arithmetic operators, logical operators, and maths-library functions. |
+| [Conditionals](01-fundamentals/05-conditionals/) | if statements and switch statements. |
+| [Loops](01-fundamentals/06-loops/) | while, nested loops, break, and continue. |
+| [Functions](01-fundamentals/07-functions/) | Functions and function prototypes. |
+| [Arrays and strings](01-fundamentals/08-arrays-and-strings/) | Arrays, user input with arrays, strings, and 2D arrays. |
 
-### 03. Strings and Character Arrays
+### 02 — Problem solving
 
-- Declaring and initializing character arrays
-- Understanding strings in C
-- Reading strings using `scanf()` and `fgets()`
-- Understanding the null terminator (`\0`)
-- Understanding newline characters (`\n`)
-- Using `strlen()` to calculate string length
-- Removing unwanted newline characters from input
-- Understanding basic scanset input (`%[^\n]`)
+| Section | Exercises |
+| --- | --- |
+| [HackerRank](02-problem-solving/hackerrank/) | Hello World; Playing with Characters. |
+| [Standalone practice](02-problem-solving/standalone/) | Sum and Difference of Two Numbers; Functions in C; Pointers in C. |
 
-### 04. Mathematical Operations
+### 03 — Projects
 
-- Working with floating-point calculations
-- Using the `<math.h>` library
-- Using `pow()` for exponentiation
-- Applying mathematical formulas in C
-- Calculating compound interest
+| File | What it does |
+| --- | --- |
+| [Calculator](03-projects/01-calculator.c) | Performs basic arithmetic operations. |
+| [Circle Calculator](03-projects/02-circle-calculator.c) | Performs calculations related to a circle. |
+| [Compound Interest Calculator](03-projects/03-compound-interest-calculator.c) | Calculates compound interest. |
+| [Temperature Converter](03-projects/04-temperature-converter.c) | Converts temperature values. |
+| [Weight Converter](03-projects/05-weight-converter.c) | Converts between weight units. |
+| [Shopping Cart](03-projects/06-shopping-cart.c) | Takes item details and calculates a total. |
+| [Banking Program](03-projects/07-banking-program.c) | Demonstrates basic balance, deposit, and withdrawal operations. |
+| [Mad Libs Game](03-projects/08-mad-libs-game.c) | Builds a short story from user-provided words. |
+| [Number Guessing Game](03-projects/09-number-guessing-game.c) | A number-guessing game using random numbers and conditions. |
+| [Rock Paper Scissors](03-projects/10-rock-paper-scissors.c) | A command-line game against the computer. |
 
-### 05. Conditional Statements and Logical Operators
+## Run a program
 
-- Using `if` statements
-- Understanding `if`, `else if`, and `else`
-- Making decisions based on conditions
-- Using `switch` statements
-- Understanding `break`
-- Logical AND (`&&`)
-- Logical OR (`||`)
-- Logical NOT (`!`)
-- Combining multiple conditions
+### 1. Check that a C compiler is installed
 
-### 06. Loops and Iteration
+This repository uses standard .c source files. The examples below use GCC. On Windows, GCC is commonly available through MinGW-w64 or MSYS2.
 
-- Understanding `while` loops
-- Working with nested loops
-- Understanding `do-while` loops
-- Repeating instructions using loops
-- Controlling loops using conditions
-- Using `break` and `continue`
-- Using loops for input validation
+### 2. Compile one file
 
-### 07. Functions
+From the repository root, run:
 
-- Creating and calling functions
-- Understanding function declarations and definitions
-- Function prototypes
-- Parameters and arguments
-- Passing information to functions
-- Understanding `void` functions
-- Returning values from functions
+~~~bash
+gcc 01-fundamentals/01-first-program/first-program.c -o first-program
+~~~
 
-### 08. Pointers
+### 3. Run it
 
-- Introduction to pointers
-- Understanding memory addresses
-- Address-of operator (`&`)
-- Dereference operator (`*`)
-- Passing pointers to functions
-- Modifying variables using pointers
+On Windows PowerShell:
 
-### 09. Random Number Generation
+~~~powershell
+./first-program.exe
+~~~
 
-- Using the `<stdlib.h>` library
-- Generating random numbers using `rand()`
-- Seeding random numbers using `srand()`
-- Using `time(NULL)` with random number generation
-- Generating random numbers within a specific range
+On macOS or Linux:
 
-### 10. Git and GitHub
+~~~bash
+./first-program
+~~~
 
-- Creating and organizing repositories
-- Using VS Code with Git
-- Staging and committing changes
-- Pushing code to GitHub
-- Writing meaningful commit messages
-- Organizing programs into folders
+To compile a different example, replace the source-file path and output name. Some HackerRank submissions expect input in the format specified by the problem, so read the comments in the source file before running them.
 
----
+## What is in the repository right now?
 
-## 🧩 Problem-Solving Practice
+- Beginner examples covering variables, input/output, operators, conditions, loops, functions, arrays, and strings.
+- Short practice programs, including HackerRank exercises and pointer/function exercises.
+- Ten small command-line projects and games.
 
-I'm practising programming problems to strengthen my logical thinking and apply the concepts I'm learning.
+This is a learning repository, so the code may show different stages of practice. The examples are kept as part of the learning process rather than presented as a finished C reference manual.
 
-| **Problem**                       | **Concepts Practised**                            |
-| --------------------------------- | ------------------------------------------------- |
-| Sum and Difference of Two Numbers | Variables, arithmetic and functions               |
-| Functions in C                    | Functions, parameters and return values           |
-| Max of Four                       | Conditional statements, comparisons and functions |
-| Pointers in C                     | Pointers, addresses and dereferencing              |
+## Next topics to explore
 
-### HackerRank Practice
+- More practice with arrays, strings, and pointers.
+- Structures (struct) and file handling.
+- Dynamic memory allocation.
+- Data structures and algorithms.
+- Small embedded-systems experiments as my C fundamentals develop.
 
-| **No.** | **Problem**             | **Difficulty** | **Status**  |
-| ------- | ----------------------- | -------------- | ----------- |
-| 01      | Hello World!            | Easy           | ✅ Completed |
-| 02      | Playing With Characters | Easy           | ✅ Completed |
-| 03      | Max of Four             | Easy           | ✅ Completed |
+## About
 
----
+I'm learning C as part of my Electronics and Computer Science Engineering journey. I use this repository to keep my code organised, revisit earlier examples, practise problem solving, and track what I build over time.
 
-## 🛠️ Projects
-
-Here are some beginner-level C programs I've built while learning and practising programming concepts.
-
-| **Project**                  | **Description**                                                    | **Concepts Practised**                                      |
-| ---------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
-| Shopping Cart Program        | Takes customer and item details and calculates the total price.   | Variables, input/output, strings and arithmetic             |
-| Mad Libs Game                | Creates funny stories using user-provided words.                   | Character arrays, `fgets()`, strings and `printf()`         |
-| Circle Calculator Program    | Performs mathematical calculations related to a circle.           | Variables, arithmetic and mathematical operations           |
-| Compound Interest Calculator | Calculates the final investment amount using compound interest.  | `double`, `math.h`, `pow()` and mathematical formulas       |
-| Calculator                   | Performs basic arithmetic calculations.                            | Variables, input/output, operators and `switch` statements  |
-| Temperature Converter        | Converts temperatures between Celsius and Fahrenheit.             | Variables, arithmetic and conditional statements            |
-| Weight Converter             | Converts between different weight units.                           | Variables, arithmetic and conditional statements            |
-| Number Guessing Game         | A game where the player tries to guess a randomly generated number.| Random numbers, loops, conditions and input validation      |
-| Rock Paper Scissors          | A command-line game where the player competes against the computer.| Functions, random numbers, `switch` and logical operators   |
-| Banking Program              | Simulates basic banking operations such as checking balance, depositing and withdrawing money. | Functions, return values, loops, `switch` and conditional statements |
-
----
-
-## 📂 Repository Structure
-
-```text
-c-programming-journey/
-│
-├── 01-basics/
-│   ├── Arithmetic operators.c
-│   ├── Break&Continue.c
-│   ├── Formate.c
-│   ├── Function Prototype.c
-│   ├── Functions.c
-│   ├── If Statements.c
-│   ├── Logical Operator.c
-│   ├── main.c
-│   ├── Maths Function.c
-│   ├── nested loop.c
-│   ├── Switches.c
-│   ├── User input.c
-│   ├── Variable(char and bool).c
-│   ├── Variables(float).c
-│   ├── Variables(int).c
-│   └── While Loop.c
-│
-├── 02-problem-solving/
-│   ├── 01-hackerrank/
-│   │   └── ...
-│   ├── 03-Sum and Difference of Two Numbers.c
-│   ├── 04-Functions in C.c
-│   └── 05-Pointers in C.c
-│
-├── 03-Projects/
-│   ├── Calculator.c
-│   ├── Circle Calculator Program.c
-│   ├── Compound Interest Calculator.c
-│   ├── Mad Libs Game.c
-│   ├── Number Guessing Game.c
-│   ├── Rock Paper Scissors.c
-│   ├── Shopping Cart Program.c
-│   ├── Temperature.c
-│   ├── Weight Converter.c
-│   └── Banking Program.c
-│
-├── .vscode/
-├── .gitignore
-└── README.md
-```
-
----
-
-## 🎯 My Learning Goals
-
-- Strengthen my C programming fundamentals.
-- Improve logical thinking and problem-solving.
-- Practise more HackerRank coding challenges.
-- Learn functions in greater depth.
-- Understand arrays and pointers.
-- Explore memory management.
-- Learn data structures and algorithms.
-- Explore embedded systems and low-level programming.
-- Build more practical projects independently.
-
----
-
-## 🌱 Learning in Public
-
-I'm still at the beginning of my programming journey, and there's a lot more to learn.
-
-I believe consistency matters more than perfection. Every program I write, every error I fix, and every problem I solve helps me become a better programmer.
-
-This repository will continue growing as I learn new concepts, solve challenges, and build more projects.
-
-**One step, one program, and one problem at a time.** 🚀
-
-Thanks for checking out my journey! ⭐
+**One program at a time.**

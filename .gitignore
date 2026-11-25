@@ -1,0 +1,17 @@
+# Compiled C programs and object files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Debug/build output
+*.pdb
+*.ilk
+*.dSYM/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
